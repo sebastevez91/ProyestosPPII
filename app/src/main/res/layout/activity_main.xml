@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logoHeight"
+        android:layout_marginTop="32dp"
+        android:src="@mipmap/conversormoney" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="@dimen/margenGrande"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="@dimen/margenGrande"
+        android:text="Moneda"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <Spinner
+        android:id="@+id/idSelectMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/margenGrande"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="@dimen/margenGrande" />
+
+    <EditText
+        android:id="@+id/idCantidadMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/margenGrande"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="@dimen/margenGrande"
+        android:text="Ingrese la cantidad"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="@dimen/margenGrande"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="@dimen/margenGrande"
+        android:text="Pasar a:"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <Spinner
+        android:id="@+id/idSelectPasar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/margenGrande"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="@dimen/margenGrande"
+        />
+
+    <Button
+        android:id="@+id/idBtnConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#FF9800"
+        android:text="Convertir"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/idResult"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginStart="@dimen/margenMediano"
+        android:layout_marginEnd="@dimen/margenMediano"
+        android:textSize="20sp"
+        />
+
+</FrameLayout>

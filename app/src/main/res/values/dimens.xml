@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logoWidth">250dp</dimen>
+    <dimen name="logoHeight">150dp</dimen>
+    <dimen name="margenChico">8dp</dimen>
+    <dimen name="margenMediano">16dp</dimen>
+    <dimen name="margenGrande">32dp</dimen>
+    <dimen name="altoEdittext">50dp</dimen>
+    <dimen name="altoBoton">80dp</dimen>
+</resources>
